@@ -1,0 +1,111 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container for the task page */
+#taskpage {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Card container for each task */
+#cards {
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+
+/* Individual task container */
+#onetask {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title styling */
+#titlecss {
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+/* Container for description and button */
+#twotask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Description text */
+#desccontent p {
+  margin: 0;
+  color: #555;
+  flex: 1;
+  padding-right: 10px;
+}
+
+/* Delete button */
+#button2 {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#button2:hover {
+  background-color: #c0392b;
+}
+
+/* Update component container */
+#pageone {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Input container */
+#input {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+/* Button for adding task */
+#button1 {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+#button1:hover {
+  background-color: #2980b9;
+}
